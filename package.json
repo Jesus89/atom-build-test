@@ -1,0 +1,23 @@
+{
+  "name": "test",
+  "main": "./lib/main",
+  "version": "0.1.0",
+  "description": "Atom Build Test",
+  "license": "GPL-3.0",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "atom-package-deps": "^4.3.1"
+  },
+  "package-deps": [
+    "build"
+  ],
+  "providedServices": {
+    "builder": {
+      "versions": {
+        "2.0.0": "provideBuilder"
+      }
+    }
+  }
+}

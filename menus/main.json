@@ -1,0 +1,13 @@
+{
+  "menu": [
+    {
+      "label": "Atom Build Test",
+      "submenu": [
+        {
+          "label": "Version",
+          "command": "test:version"
+        }
+      ]
+    }
+  ]
+}
